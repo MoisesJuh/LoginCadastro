@@ -68,8 +68,34 @@ body{
   padding: 5px;
   color: rgba(255, 255, 255, 0.753);
 }
+#checkbox_lembrar{
+  color: white;
+}
 #confirmar{
+  width: 50%;
   font-size: 14px;
-  padding: 8px;
-  border-radius: 10px 0px 10px 0px;
+  padding: 6px;
+  border-radius: 20px;
+  color: white;
+
+  background: transparent;
+  backdrop-filter: blur(20px);
+  
+  transition-duration: 0.3s;
+}
+#confirmar:hover{
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.562);
+  border-radius: 25px;
+  padding: 7px;
+}
+#cadastre_se{
+  font-size: 12px;
+  color: white;
+}
+#cadastre_se a{
+  text-decoration: none;
+  color:aqua;
+}
+#cadastre_se a:hover{
+  text-decoration: underline;
 }

@@ -13,11 +13,22 @@
       <h1> LOGIN </h1>
     </div>
     <form action="#" method="post" class="checkbox">
-      <input type="text" name="nome" id="inome" class="inf" placeholder="Nome"  required>
-      <input type="text" name="senha" id="isenha" class="inf" placeholder="Senha" required>
+      <input type="text" name="nome" id="inome" class="inf" placeholder="Nome" autocomplete="off"  required>
+      <input type="text" name="senha" id="isenha" class="inf" placeholder="Senha" autocomplete="off"  required>
+      <div id="checkbox_lembrar">
+        <input type="checkbox" name="remember" id="remember">
+        <label for="remember">Lembrar conta</label>
+      </div>
       <input type="submit" value="Confirmar" id="confirmar">
     </form>
     <form action="" method="get"></form>
+    <div id="cadastre_se">
+      <h3>Não possui conta? <a href="#">Cadastre-se</a></h3>
+      
+    </div>
+  </section>
+  <section>
+    
   </section>
 </body>
 </html>
