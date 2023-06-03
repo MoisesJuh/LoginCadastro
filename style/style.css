@@ -1,13 +1,14 @@
 @charset "UTF-8";
+@media screen and (max-width: 600px) {
+  section#login{
+    height: 99dvh;
+  }
+}
 *{
   margin: 0px;
   padding: 0px;
 }
-@media  screen and (max-width: 768px) {
-  #login{
-    height: 99dvh;
-  }
-}
+
 
 body{
   display: flex;
