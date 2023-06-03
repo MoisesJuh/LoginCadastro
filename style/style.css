@@ -3,6 +3,11 @@
   margin: 0px;
   padding: 0px;
 }
+@media  screen and (max-width: 768px) {
+  #login{
+    width: 99dvw;
+  }
+}
 
 body{
   display: flex;
