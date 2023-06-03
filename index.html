@@ -23,12 +23,21 @@
     </form>
     <form action="" method="get"></form>
     <div id="cadastre_se">
-      <h3>Não possui conta? <a href="#">Cadastre-se</a></h3>
+      <h3>Não possui conta? <a href="#registro" onclick="troca1()">Cadastre-se</a></h3>
       
     </div>
   </section>
-  <section>
-    
+  <section id="registro">
   </section>
+  <script>
+    var troca1 = document.getElementById('login')
+    var trocaregistro = document.querySelector('section#registro')
+
+    function troca1(){
+      if (troca1.style.display == 'flex'){
+        troca1.style.display = 'none'
+      }
+    }
+  </script>
 </body>
 </html>
