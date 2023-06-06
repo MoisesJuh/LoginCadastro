@@ -8,27 +8,38 @@
   <title>LoginCadastro</title>
 </head>
 <body>
-  <section id="login">
+  <section id="login" class="loginregistro">
     <div class="cabeca">
       <h1> LOGIN </h1>
     </div>
     <form action="#" method="post" class="checkbox">
       <input type="text" name="nome" id="inome" class="inf" placeholder="Nome" autocomplete="off"  required>
-      <input type="text" name="senha" id="isenha" class="inf" placeholder="Senha" autocomplete="off"  required>
+      <input type="password" name="senha" id="isenha" class="inf" placeholder="Senha" autocomplete="off"  required>
       <div id="checkbox_lembrar">
         <input type="checkbox" name="remember" id="remember">
         <label for="remember">Lembrar conta</label>
       </div>
       <input type="submit" value="Confirmar" id="confirmar">
     </form>
-    <form action="" method="get"></form>
-    <div id="cadastre_se">
+    <div class="trocaregistrologin">
       
       <h3>Não possui conta? <a href="#registro" onclick="troca1()">Cadastre-se</a></h3>
       
     </div>
   </section>
-  <section id="registro">
+  <section id="registro" class="loginregistro">
+    <div class="cabeca">
+      <h1> CADASTRO </h1>
+    </div>
+    <form action="#" method="post" class="checkbox" id="formregistro">
+      <input type="text" name="nomeregistro" id="nomeregistro" class="inf" placeholder="Nome" autocomplete="off"  required>
+      <input type="password" name="nomeregistro" id="nomeregistro" class="inf" placeholder="Senha" autocomplete="off" required>
+      <input type="password" name="nomeregistro" id="nomeregistro" class="inf" placeholder="Confirmar senha" autocomplete="off" required>
+      <input type="submit" value="Pronto" id="confirmar">
+      <div class="trocaregistrologin">
+        <p id="trocaregistro">Já possui conta? <a href="#" onclick="troca2()">Logar</a></p>
+      </div>
+    </form>
   </section>
   <script src="style/script.js">
   </script>
